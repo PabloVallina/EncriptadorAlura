@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Challenge - Encriptador de texto</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <img src="imagenes/vector.jpg" alt="Logo de Alura" class="logo"><h1 class="titulo">Encriptador - Desencriptador</h1>
+
+        </header>
+
+        <main>
+
+            <section>
+
+                <textarea class="cuadroTexto" cols="30" rows="10" placeholder="Ingrese su texto acá"></textarea>
+                <div>
+                    <h6 class="reglas">Ingrese solo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class="botones">
+                    <button class="btnEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btnDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+
+            </section>
+            <section>
+
+                <textarea class="mensaje" cols="25" rows="17"></textarea>
+                <div>
+                    <button class="btnCopiar" onclick="btnCopiar()">Copiar</button>
+                </div>
+
+            </section>
+
+        </main>
+
+        <script src="script.js"></script>
+
+        <footer>
+
+            <div class="final">
+                Producido por Pablo Vallina
+            </div>
+
+        </footer>
+    </body>
+
+</html>
